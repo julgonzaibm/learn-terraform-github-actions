@@ -15,10 +15,10 @@ terraform {
   required_version = ">= 1.1.0"
 
   cloud {
-    organization = "julgonza-organization"
+    organization = "REPLACE_ME"
 
     workspaces {
-      name = "julgonza-workspace"
+      name = "gh-actions-demo"
     }
   }
 }
